@@ -137,7 +137,15 @@
               </div>
             </div>
 
-            <div class="row">
+            <div class="mb-3">
+              <label for="itemText">Item Text</label>
+              <textarea class="form-control" id="itemText" rows="5" required=""></textarea>
+              <div class="invalid-feedback">
+                Item text is required.
+              </div>
+            </div>
+              
+              <div class="row">
               <div class="col-md-12 mb-3">
                 <label for="lastName">Aff Link</label>
                 <input type="text" class="form-control" id="affLink" placeholder="" value="" required="">
@@ -146,15 +154,6 @@
                 </div>
               </div>
             </div>
-
-            <div class="mb-3">
-              <label for="itemText">Item Text</label>
-              <textarea class="form-control" id="itemText" rows="5" required=""></textarea>
-              <div class="invalid-feedback">
-                Item text is required.
-              </div>
-            </div>
-
             
             <hr class="mb-4">
             <button class="btn btn-primary btn-lg btn-block" type="submit" id="getTags">Get Tags</button>
