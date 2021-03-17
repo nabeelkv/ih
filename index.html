@@ -173,19 +173,19 @@
 
     <script>
 
-     var itemTagsContainer = document.getElementById('itemTagsContainer');
-       var hrDivider = document.getElementById('hrDivider');
-       var itemTags = document.getElementById('itemTags');
-       var getTags = document.getElementById('getTags');
+//      var itemTagsContainer = document.getElementById('itemTagsContainer');
+//        var hrDivider = document.getElementById('hrDivider');
+//        var itemTags = document.getElementById('itemTags');
+//        var getTags = document.getElementById('getTags');
 
-       var orderNumber = document.getElementById('orderNumber');
-       var itemTitle = document.getElementById('itemTitle');
-       var imageUrl = document.getElementById('imageUrl');
-       var affLink = document.getElementById('affLink');
-       var itemText = document.getElementById('itemText');
+//        var orderNumber = document.getElementById('orderNumber');
+//        var itemTitle = document.getElementById('itemTitle');
+//        var imageUrl = document.getElementById('imageUrl');
+//        var affLink = document.getElementById('affLink');
+//        var itemText = document.getElementById('itemText');
 
-       itemTagsContainer.style.display = "none";
-       hrDivider.style.display = "none";
+//        itemTagsContainer.style.display = "none";
+//        hrDivider.style.display = "none";
 
 
       // Example starter JavaScript for disabling form submissions if there are invalid fields
@@ -207,17 +207,17 @@
 
            getTags.addEventListener("click", function (event) {
 
-             event.preventDefault();
+//              event.preventDefault();
 
-             itemTagsContainer.style.display = "block";
-              hrDivider.style.display = "block";
+//              itemTagsContainer.style.display = "block";
+//               hrDivider.style.display = "block";
 
-           itemTags.value = `<h3>${orderNumber.value}. ${itemTitle.value}</h3>\n<a href="${affLink.value}" rel="nofollow sponsored"><img alt="${itemTitle.value}" class="post-img" src="${imageUrl.value}" /></a>\n<p>${itemText.value}</p>\n\n <li><a href="${affLink.value}" rel="nofollow sponsored">Check price at Amazon.in</a></li><br/>`;
+//            itemTags.value = `<h3>${orderNumber.value}. ${itemTitle.value}</h3>\n<a href="${affLink.value}" rel="nofollow sponsored"><img alt="${itemTitle.value}" class="post-img" src="${imageUrl.value}" /></a>\n<p>${itemText.value}</p>\n\n <li><a href="${affLink.value}" rel="nofollow sponsored">Check price at Amazon.in</a></li><br/>`;
 
-           itemTagsContainer.scrollIntoView();
+//            itemTagsContainer.scrollIntoView();
 
 
-       });
+//        });
 
               }
               form.classList.add('was-validated');
@@ -243,33 +243,33 @@
     
     <script>
        
-       // var itemTagsContainer = document.getElementById('itemTagsContainer');
-       // var hrDivider = document.getElementById('hrDivider');
-       // var itemTags = document.getElementById('itemTags');
-       // var getTags = document.getElementById('getTags');
+       var itemTagsContainer = document.getElementById('itemTagsContainer');
+       var hrDivider = document.getElementById('hrDivider');
+       var itemTags = document.getElementById('itemTags');
+       var getTags = document.getElementById('getTags');
 
-       // var orderNumber = document.getElementById('orderNumber');
-       // var itemTitle = document.getElementById('itemTitle');
-       // var imageUrl = document.getElementById('imageUrl');
-       // var affLink = document.getElementById('affLink');
-       // var itemText = document.getElementById('itemText');
+       var orderNumber = document.getElementById('orderNumber');
+       var itemTitle = document.getElementById('itemTitle');
+       var imageUrl = document.getElementById('imageUrl');
+       var affLink = document.getElementById('affLink');
+       var itemText = document.getElementById('itemText');
 
-       // itemTagsContainer.style.display = "none";
-       // hrDivider.style.display = "none";
+       itemTagsContainer.style.display = "none";
+       hrDivider.style.display = "none";
 
-       // getTags.addEventListener("click", function (event) {
+       getTags.addEventListener("click", function (event) {
 
-       //  event.preventDefault();
+        event.preventDefault();
 
-       //     itemTagsContainer.style.display = "block";
-       //     hrDivider.style.display = "block";
+           itemTagsContainer.style.display = "block";
+           hrDivider.style.display = "block";
 
-       //     itemTags.value = `<h3>${orderNumber.value}. ${itemTitle.value}</h3>\n<a href="${affLink.value}" rel="nofollow sponsored"><img alt="${itemTitle.value}" class="post-img" src="${imageUrl.value}" /></a>\n<p>${itemText.value}</p>\n\n <li><a href="${affLink.value}" rel="nofollow sponsored">Check price at Amazon.in</a></li><br/>`;
+           itemTags.value = `<h3>${orderNumber.value}. ${itemTitle.value}</h3>\n<a href="${affLink.value}" rel="nofollow sponsored"><img alt="${itemTitle.value}" class="post-img" src="${imageUrl.value}" /></a>\n<p>${itemText.value}</p>\n\n <li><a href="${affLink.value}" rel="nofollow sponsored">Check price at Amazon.in</a></li><br/>`;
 
-       //     itemTagsContainer.scrollIntoView();
+           itemTagsContainer.scrollIntoView();
 
 
-       // });
+       });
 
 
 
